@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:backgroundTint="#99d5e2f9"
+    android:backgroundTintMode="src_over"
+    tools:context="com.myfirstapp.mrpc.phc_project.Patient_Complain">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Your Complain"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColorHint="#FFFFFF"/>
+        <EditText
+            android:id="@+id/pat_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Patient Name"
+            android:inputType="text"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/box"
+            android:textColorHint="#FFFFFF"/>
+        <EditText
+            android:id="@+id/pat_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Blood Group"
+            android:inputType="text"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/box"
+            android:textColorHint="#FFFFFF"/>
+        <EditText
+            android:id="@+id/pat_cnic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CNIC"
+            android:inputType="number"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/box"
+            android:textColorHint="#FFFFFF"/>
+        <EditText
+            android:id="@+id/pat_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone no"
+            android:inputType="phone"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/box"
+            android:textColorHint="#FFFFFF"/>
+        <EditText
+            android:id="@+id/pat_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:inputType="text"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/box"
+            android:textColorHint="#FFFFFF"/>
+        <EditText
+            android:id="@+id/pat_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="text"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/box"
+            android:textColorHint="#FFFFFF"/>
+        <EditText
+            android:id="@+id/pat_complain"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Complain"
+            android:inputType="text"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/box"
+            android:textColorHint="#FFFFFF"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/pat_complainButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textColor="#fffefe"
+                android:background="@drawable/box" />
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/pat_complainBackButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textColor="#fffefe"
+                android:background="@drawable/box" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

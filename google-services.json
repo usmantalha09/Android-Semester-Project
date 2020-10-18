@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "8730764644",
+    "firebase_url": "https://phc-project-117c4.firebaseio.com",
+    "project_id": "phc-project-117c4",
+    "storage_bucket": "phc-project-117c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8730764644:android:3bb076e22f3b273bdbc671",
+        "android_client_info": {
+          "package_name": "com.myfirstapp.mrpc.phc_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8730764644-q08p1adp34edpv03a9qi3l3628plbq13.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myfirstapp.mrpc.phc_project",
+            "certificate_hash": "2cdcb04764011b9777082d3bd554ad9ab60e87d3"
+          }
+        },
+        {
+          "client_id": "8730764644-mv105iifnc3v16k0tkfmh2p7jd2vu420.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc0M7sTnIwsHZllz_zqqW7a_1O44fa86U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8730764644-mv105iifnc3v16k0tkfmh2p7jd2vu420.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

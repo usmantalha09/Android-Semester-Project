@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+    <LinearLayout
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#7899ed">
+       <LinearLayout
+           android:layout_marginTop="2dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_weight="1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Name:  "
+               android:textColor="#000000"
+               android:textSize="20dp"
+               android:textStyle="bold"/>
+           <TextView
+               android:layout_weight="1"
+               android:id="@+id/Complainpatientname"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="patientname"
+               android:textColor="#000000"
+               android:textSize="20dp"
+               android:textStyle="bold"/>
+
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address:  "
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/Complainpatientaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="patientAddress"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone#  "
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/Complainpatientphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="patientphone"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blood_Group: "
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/Complainpatientblood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="patientBlood Group"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Complain:  "
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/Complainpatientcomplain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="patientComplains"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_weight="1"
+                android:background="@drawable/box"
+                android:id="@+id/ComplainResponse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Response"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</android.support.v7.widget.CardView>
